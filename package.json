@@ -1,0 +1,59 @@
+{
+  "name": "atrasvasoloapp",
+  "version": "1.0.0",
+  "description": "Sistema de Transporte",
+  "productName": "Atras va Solo APP",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@arcgis/core": "^4.23.7",
+    "@esri/arcgis-rest-demographics": "^4.0.1",
+    "@esri/arcgis-rest-feature-service": "^4.0.2",
+    "@esri/arcgis-rest-geocoding": "^4.0.1",
+    "@esri/arcgis-rest-portal": "^4.0.2",
+    "@esri/arcgis-rest-request": "^4.0.2",
+    "@esri/arcgis-rest-routing": "^4.0.1",
+    "@quasar/extras": "^1.0.0",
+    "@vue/composition-api": "^1.6.0",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "esri-loader": "^3.5.0",
+    "firebase": "^9.6.10",
+    "quasar": "^1.0.0",
+    "vue-analytics": "^5.22.1",
+    "vue-arcgis-api": "^0.2.4",
+    "vuefire": "^2.2.5",
+    "vuexfire": "^3.2.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^7.21.0",
+    "eslint-webpack-plugin": "^2.4.0",
+    "eslint-plugin-vue": "^7.7.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "@quasar/app": "^2.0.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
